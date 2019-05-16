@@ -3,7 +3,7 @@
 	"description":"Shuffle contao content elements",
 	"keywords":["contao","shuffle"],
 	"type":"contao-bundle",
-	"homepage":"https://bohn.media",
+	"homepage":"https://github.com/bohnmedia/contao-content-shuffle-bundle",
 	"license":"MIT",
 	"authors":[
 		{
