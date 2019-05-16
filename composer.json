@@ -1,0 +1,33 @@
+{
+	"name":"bohnmedia/contao-content-shuffle-bundle",
+	"description":"Shuffle contao content elements",
+	"keywords":["contao","shuffle"],
+	"type":"contao-bundle",
+	"homepage":"https://bohn.media",
+	"license":"MIT",
+	"authors":[
+		{
+			"name":"bohn.media",
+			"homepage":"https://bohn.media",
+			"role":"Developer"
+		}
+	],
+	"require": {
+		"contao/core-bundle":"~4.4"
+	},
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "extra": {
+        "contao-manager-plugin": "BohnMedia\\ContentShuffleBundle\\ContaoManager\\Plugin"
+    },
+	"autoload":{
+		"psr-4": {
+			"BohnMedia\\ContentShuffleBundle\\": "src/"
+		},
+        "classmap": [
+			"src/Classes/"
+		]
+	}
+}
